@@ -12,5 +12,8 @@ This repository contains a collection of SQL code snippets for analyzing WhatsAp
 The output of each query is a DataFrame that can be used for further data analysis and visualization. The provided queries can help you to get deeper insights into your WhatsApp chats. The code uses various SQL techniques such as subqueries, correlated subqueries, joins, window functions, text and date manipulation functions to efficiently analyze the data.
 
 ## DataSource
-WhatsApp chat backup data in the form of an SQLite database. The data is sourced and extracted from personal WhatsApp chats, For more details [See](https://www.group-ib.com/blog/whatsapp-forensic-artifacts/).<br>
-The database contains 153 tables, and the code in this repository utilizes a subset of them for the analysis.
+WhatsApp chat backup data in the form of an SQLite database. The data is sourced and extracted from personal WhatsApp chats, For more details [See](https://www.group-ib.com/blog/whatsapp-forensic-artifacts/), The database contains 153 tables, and the code in this repository utilizes a subset of them for the analysis.<br>
+
+Tables Snapshot : 
+
+![Tables](https://github.com/abdulrahmankhayal/WhatsApp-Messages-DB-Analysis-Using-SQL/blob/main/Tables_SnapShot.png)
